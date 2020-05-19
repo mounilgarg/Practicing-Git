@@ -1,0 +1,29 @@
+//C++ program illustrating "array of objects"
+#include <iostream> 
+using namespace std;  
+class MyClass 
+{ 
+     int x; 
+    public: 
+    //for setting value of x
+        void setX(int i) 
+		    { x = i; } 
+	//returns value of x
+         int putX() { return x; } 
+}; 
+ 
+int main() 
+{ 
+  MyClass obs[4]; 
+  int i; 
+ 
+ //to set value of x for corresponding objests
+  for(i=0; i < 4; i++) 
+    obs[i].setX(i); 
+ 
+ //to print corresponding values of x
+  for(i=0; i < 4; i++) 
+    cout << "obs[" << i << "].getX(): " << obs[i].putX() << "\n"; 
+ 
+  return 0; 
+}

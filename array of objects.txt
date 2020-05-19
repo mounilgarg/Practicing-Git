@@ -24,7 +24,7 @@ int main()
  
  //to print corresponding values of x
   for(i=0; i < 4; i++) 
-    cout << "obs[" << i << "].getX(): " << obs[i].putX() << "\n"; 
+    cout << "obs[" << i << "].putX(): " << obs[i].putX() << "\n"; 
  
   return 0; 
 }

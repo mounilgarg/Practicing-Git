@@ -17,7 +17,7 @@ int main()
   MyClass obs[4]; 
   int i; 
  
- //to set value of x for corresponding objests
+ //to set value of x for corresponding objests of the array
   for(i=0; i < 4; i++) 
     obs[i].setX(i); 
  
